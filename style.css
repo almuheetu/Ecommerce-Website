@@ -138,3 +138,13 @@ h4 {
     flex-direction: column;
     gap: 1em;
 }
+
+
+
+
+.main-links a:hover{
+    color: var(--secondary-color);
+}
+.second-links a:hover{
+    color: var(--light-text-color);
+}
