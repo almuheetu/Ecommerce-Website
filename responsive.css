@@ -1,9 +1,25 @@
-@media screen and (min-width: 992px){
-    .containar{
+@media screen and (min-width: 992px) {
+    .containar {
         padding: 0 2em;
     }
-    .desktop-hide{
+
+    .desktop-hide {
         display: none;
     }
+
+    .mobile-hide {
+        display: block;
+    }
+    .logo a {
+        margin-right: 2em;
+
+    }
+    .header-nav {
+        padding: 0;
+        margin: 0;
+        border-bottom: 0;
+    }
+    .header-nav .right li > a{
+        margin-left: 1em;
+    }
 }
-    
