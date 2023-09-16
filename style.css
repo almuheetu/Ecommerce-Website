@@ -174,10 +174,23 @@ h4 {
     padding: 0 0.75em 0 0;
 }
 
-.mobile-hide{
+.mobile-hide {
     display: none;
 }
 
+.object-cover img {
+    position: absolute;
+    object-fit: cover;
+    width: var(--percent100);
+    height: var(--percent100);
+    display: block;
+}
+
+.products .media {
+    position: absolute;
+    flex-shrink: 0;
+    overflow: hidden;
+}
 
 /* header */
 
@@ -224,6 +237,7 @@ header li>a {
 .header-top li:hover ul {
     display: block;
 }
+
 .header-nav {
     padding: 0.5em 0;
     margin-bottom: 1.5em;
@@ -298,16 +312,19 @@ nav .fly-item {
     position: relative;
     margin-left: auto;
 }
-.header-nav .right .icon-large{
+
+.header-nav .right .icon-large {
     position: relative;
 }
-.header-nav .right .fly-item{
+
+.header-nav .right .fly-item {
     top: 0;
     right: 16px;
     width: 16px;
     background-color: var(--secondary-dark-color);
     border-radius: var(--percent50);
 }
+
 .mega .flexcol {
     flex: 1;
     min-width: 180px;
