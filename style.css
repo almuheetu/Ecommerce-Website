@@ -166,7 +166,7 @@ h4 {
 
 .icon-small {
     font-size: 1.25em;
-    margin: auto;
+    margin-left: auto;
 }
 
 .icon-large {
@@ -401,6 +401,10 @@ nav .fly-item {
     padding: 1.5em 0;
     margin-bottom: 2em;
 }
+.dpt-cat {
+    position: relative;
+    z-index: 10;
+}
 
 .dpt-cat .dpt-head {
 	position: relative;
@@ -411,6 +415,7 @@ nav .fly-item {
 	color: var(--white-color);
 	margin-bottom: -2.15em;
 }
+
 
 .dpt-cat .dpt-head .mini-text {
     color: var(--light-bg-color);
@@ -423,6 +428,11 @@ nav .fly-item {
     padding: 1.3em;
     height: 60px;
     width: 60px;
+}
+.dpt-menu > ul > li > a {
+    font-size: var(--font-small);
+    height: 46px;
+    align-items: center;
 }
 
 
