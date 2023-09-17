@@ -151,11 +151,20 @@
         background-repeat: no-repeat;
         background-size: auto;
     }
-    .dpt-menu .has-child:nth-child(1) > ul {
+    .dpt-menu .mega {
         display: block;
     }
     .dpt-menu .beauty ul {
         background-image: url(images/menu/menu_bg1.jpg);
+    }
+    .dpt-menu .electric ul {
+        background-image: url(images/menu/menu_bg2.jpg);
+    }
+    .dpt-menu .fashion ul {
+        background-image: url(images/menu/menu_bg3.jpg);
+    }
+    .dpt-menu .homekit .mega {
+        background-image: url(images/menu/menu_bg4.jpg);
     }
 
 
