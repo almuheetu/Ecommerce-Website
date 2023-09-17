@@ -46,7 +46,7 @@
         display: none;
     }
 
-    nav li.has-child:hover .mega{
+    nav li.has-child:hover .mega {
         display: block;
     }
 
@@ -91,7 +91,8 @@
     nav .mega .products .media {
         height: 400px;
     }
-    nav .mega .products .text-content { 
+
+    nav .mega .products .text-content {
         line-height: inherit;
         display: flex;
         flex-direction: column;
@@ -102,7 +103,8 @@
         bottom: 4em;
         width: var(--percent100);
     }
-    nav .mega .products .text-content h4 { 
+
+    nav .mega .products .text-content h4 {
         font-size: 2em;
         font-weight: var(--fw8);
         text-align: center;
@@ -112,6 +114,19 @@
     .header-main .right {
         max-width: 600px;
         margin-left: auto;
+    }
+
+
+
+
+    .dpt-menu {
+        position: absolute;
+        top: var(--percent100);
+        width: 300px;
+        background-color: var(--white-color);
+        border: 1px solid var(--border-color);
+        border-top: 0;
+        border-bottom: 0;
     }
 
 
