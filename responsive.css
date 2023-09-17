@@ -109,5 +109,11 @@
         color: var(--secondary-dark-color);
     }
 
+    .header-main .right {
+        max-width: 600px;
+        margin-left: auto;
+    }
+
+
 
 }
