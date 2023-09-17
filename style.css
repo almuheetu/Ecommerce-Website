@@ -231,12 +231,14 @@ h4 {
     background-color: var(--secondary-dark-color);
     color: var(--white-color);
 }
+
 .view-all {
     font-size: var(--font-small);
     display: flex;
     gap: 1em;
     transition: var(--trans-color);
 }
+
 .mini-text {
     font-size: var(--font-small);
     color: var(--light-text-color);
@@ -393,11 +395,13 @@ nav .fly-item {
     margin-bottom: 1.5em;
     z-index: 1;
 }
+
 .header-main {
     background-color: var(--secondary-dark-color);
     padding: 1.5em 0;
     margin-bottom: 2em;
 }
+
 .dpt-cat .dpt-head {
     position: relative;
     width: 300px;
@@ -407,14 +411,35 @@ nav .fly-item {
     color: var(--white-color);
     margin-bottom: -2.15em;
 }
+
 .dpt-cat .dpt-head .mini-text {
     color: var(--light-bg-color);
 }
-.dpt-cat .dpt-trigger  {
+
+.dpt-cat .dpt-trigger {
     position: absolute;
     right: 0;
     top: 0;
     padding: 1.3em;
     height: 60px;
     width: 60px;
+}
+
+
+.header-main .right{
+    flex: 1;
+
+}
+form{
+    position: relative;
+}
+form.search input {
+    line-height: 3.25em;
+    padding: 0 7em 0 4.5em;
+    border: 0;
+    outline: 0;
+    width: var(--percent100);
+    border-radius: 7px;
+    font-size: 0.9em;
+    font-weight: var(--fw3);
 }
