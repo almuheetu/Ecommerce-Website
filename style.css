@@ -434,6 +434,13 @@ nav .fly-item {
     height: 46px;
     align-items: center;
 }
+.dpt-menu .has-child:hover ul {
+    display: block;
+}
+.dpt-menu .has-child li a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
 
 
 .header-main .right {
