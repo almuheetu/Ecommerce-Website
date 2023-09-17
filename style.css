@@ -196,7 +196,7 @@ h4 {
 .secondary-button,
 .light-button {
     font-size: var(--font-small);
-    padding: 0.9em 2em;
+    padding: 0.4em 2em;
     height: auto;
     width: fit-content;
     border-radius: 2em;
@@ -218,13 +218,25 @@ h4 {
 }
 
 .secondary-button:hover {
-    background-color: var(--light-bg-color); 
+    background-color: var(--light-bg-color);
     color: var(--secondary-dark-color);
 }
 
-.light-button {}
+.light-button {
+    background-color: var(--light-bg-color);
 
-.light-button:hover {}
+}
+
+.light-button:hover {
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+}
+.view-all {
+    font-size: var(--font-small);
+    display: flex;
+    gap: 1em;
+    transition: var(--trans-color);
+}
 
 /* header */
 
