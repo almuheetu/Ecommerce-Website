@@ -80,9 +80,10 @@
     nav .mega .products .row {
         width: var(--percent100);
     }
+
     nav .mega .products .media {
-       height: 400px;
+        height: 400px;
     }
 
-   
+
 }

@@ -187,7 +187,7 @@ h4 {
 }
 
 .products .media {
-    position: absolute;
+    position: relative;
     flex-shrink: 0;
     overflow: hidden;
 }
