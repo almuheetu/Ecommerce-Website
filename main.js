@@ -23,6 +23,11 @@ function copyMenu() {
 }
 copyMenu();
 
+//show mobile menu
+const menuButton = document.querySelector('.trigger'),
+closeButton = document.querySelector('.t-close'),
+addclass = document.querySelector('.site')
+
 // show sub menu on mobile 
 
 const submenu = document.querySelectorAll('.has-child .icon-small');
