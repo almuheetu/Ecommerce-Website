@@ -401,19 +401,20 @@ nav .fly-item {
     padding: 1.5em 0;
     margin-bottom: 2em;
 }
+
 .dpt-cat {
     position: relative;
     z-index: 10;
 }
 
 .dpt-cat .dpt-head {
-	position: relative;
-	width: 300px;
-	padding: 0.60em 1.5em;
-	background-color: var(--primary-color);
-	border-radius: 7px 7px 0 0;
-	color: var(--white-color);
-	margin-bottom: -2.15em;
+    position: relative;
+    width: 300px;
+    padding: 0.60em 1.5em;
+    background-color: var(--primary-color);
+    border-radius: 7px 7px 0 0;
+    color: var(--white-color);
+    margin-bottom: -2.15em;
 }
 
 
@@ -429,14 +430,17 @@ nav .fly-item {
     height: 60px;
     width: 60px;
 }
-.dpt-menu > ul > li > a {
+
+.dpt-menu>ul>li>a {
     font-size: var(--font-small);
     height: 46px;
     align-items: center;
 }
+
 .dpt-menu .has-child:hover ul {
     display: block;
 }
+
 .dpt-menu .has-child li a:hover {
     text-decoration: underline;
     color: var(--primary-color);
@@ -489,4 +493,21 @@ form.search button {
 form.search button:hover {
     background-color: var(--dark-color);
 
+}
+
+
+
+.site-off {
+    position: fixed;
+    width: 320px;
+    height: var(--percent100);
+    background-color: var(--white-color);
+    overflow-y: auto;
+    z-index: 1000;
+}
+.off-canvas {
+    width: var(--percent100);
+    height: var(--percent100);
+    touch-action: auto;
+    padding: 1.5em;
 }
