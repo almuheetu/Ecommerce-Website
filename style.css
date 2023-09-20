@@ -627,3 +627,14 @@ form.search button:hover {
     line-height: 16px;
     margin: 0 0.5em 0.5em 0;
 }
+
+/* slider */
+
+.slider > div > .wrapper {
+    width: calc(100% - (300px + 2rem));
+    margin-left: auto;
+}
+.slider .item {
+    position: relative;
+    height: 474px;
+}
