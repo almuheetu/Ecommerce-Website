@@ -25,12 +25,12 @@ copyMenu();
 
 //show mobile menu
 const menuButton = document.querySelector('.trigger'),
-closeButton = document.querySelector('.t-close'),
-addclass = document.querySelector('.site')
-menuButton.addEventListener('click', function() {
+    closeButton = document.querySelector('.t-close'),
+    addclass = document.querySelector('.site')
+menuButton.addEventListener('click', function () {
     addclass.classList.toggle('showmenu')
 });
-closeButton.addEventListener('click', function() {
+closeButton.addEventListener('click', function () {
     addclass.classList.remove('showmenu')
 });
 
@@ -53,13 +53,12 @@ function toggle(e) {
 const swiper = new Swiper('.swiper', {
 
     loop: true,
-  
-    // If we need pagination
+
     pagination: {
-      el: '.swiper-pagination',
+        el: '.swiper-pagination',
     },
-  
 
-  
 
-  });
+
+
+});
