@@ -698,3 +698,14 @@ form.search button:hover {
   .brands .item a:hover img {
     opacity: 1;
   }
+
+
+
+  /* product */
+
+  .sectop {
+    justify-content: center;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--border-color);
+  }
