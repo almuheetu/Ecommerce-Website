@@ -862,3 +862,11 @@ form.search button:hover {
 	color: var(--white-color);
 	margin-top: 11px;
 }
+
+.products .content {
+    display: flex;
+    flex-direction: column;
+}
+.products:where(.big, .main.one) .content {
+    
+}
