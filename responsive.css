@@ -194,10 +194,21 @@
     }
 
     /* slider */
-    .slider > div > .wrapper {
+    .slider>div>.wrapper {
         width: calc(100% - (300px + 2em));
         margin-left: auto;
     }
+
+    /* products */
+
+    .trending .products {
+        flex: 0 0 33.3333%;
+    }
+
+    .products.big .media {
+        max-height: 373px;
+    }
+
 
 
 }
