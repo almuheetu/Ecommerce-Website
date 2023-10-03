@@ -877,12 +877,3 @@ form.search button:hover {
     align-items: center;
     gap: ;
 }
-.products .rating {
-    display: flex;
-    align-items: center;
-    gap: ;
-}
-.products .content {
-    display: flex;
-    flex-direction: column;
-}
