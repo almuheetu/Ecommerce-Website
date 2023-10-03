@@ -875,5 +875,5 @@ form.search button:hover {
 .products .rating {
     display: flex;
     align-items: center;
-    gap: ;
+    gap: 0.5em;
 }
