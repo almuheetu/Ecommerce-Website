@@ -850,13 +850,6 @@ form.search button:hover {
     background-color: transparent;
     z-index: 1;
 }
-.products .discount {
-    top: auto;
-    right: 0;
-    left: auto;
-    bottom: 0;
-    background-color: ;
-}
 
 .products .discount::before {
     background-color: var(--dark-color);
@@ -883,4 +876,13 @@ form.search button:hover {
     display: flex;
     align-items: center;
     gap: ;
+}
+.products .rating {
+    display: flex;
+    align-items: center;
+    gap: ;
+}
+.products .content {
+    display: flex;
+    flex-direction: column;
 }
