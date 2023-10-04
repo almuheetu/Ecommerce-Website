@@ -1,3 +1,12 @@
+
+@media screen and (min-width: 768px) {
+    .products .price .current {
+        font-size: 1.25em;
+    }
+}
+
+
+
 @media screen and (min-width: 992px) {
     .containar {
         padding: 0 2em;
