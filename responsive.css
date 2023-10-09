@@ -1,5 +1,16 @@
 
+@media screen and (min-width: 481px) {
+    .products.main .item {
+        flex: 0 0 50%;
+    }
+}
+
+
 @media screen and (min-width: 768px) {
+
+    .products.main .item {
+        flex: 0 0 33.3333%;
+    }
     .products .price .current {
         font-size: 1.25em;
     }
@@ -219,6 +230,9 @@
 
     .products.big .media {
         max-height: 373px;
+    }
+    .products.mini {
+        flex: 0 0 25%;
     }
 
 
