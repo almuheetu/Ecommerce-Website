@@ -967,3 +967,11 @@ form.search button:hover {
 .products.main .media {
     height: 390px;
 }
+.products.main .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 1em 1em;
+    border-radius: 7px;
+    background: linear-gradient(0deg var(--light-bg-color) 0%, var(--white-color) 70%);
+}
