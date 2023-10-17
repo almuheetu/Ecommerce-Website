@@ -1195,6 +1195,7 @@ form.search button:hover {
 .menu-bottom nav li a i {
     font-size: 1.25em;
 }
+
 .menu-bottom .fly-item {
     right: 50%;
     width: 16px;
@@ -1215,15 +1216,18 @@ form.search button:hover {
     opacity: 0;
     will-change: visibility, opacity;
 }
+
 .showsearch .search-bottom {
     visibility: inherit;
     opacity: 1;
 }
+
 .search-bottom .t-close {
     position: absolute;
     top: -54px;
     right: 0;
 }
+
 .search-bottom .t-close:hover {
     background-color: var(--primary-color);
 }
@@ -1240,4 +1244,12 @@ form.search button:hover {
     left: 0;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    will-change: visibility, opacity;
+}
+
+.showmenu .overlay {
+    opacity: 1;
+    visibility: inherit;
 }
