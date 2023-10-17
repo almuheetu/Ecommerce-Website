@@ -15,7 +15,8 @@
         font-size: 1.25em;
     }
     .products.mini,
-    .banner .row {
+    .banner .row,
+    .widgets .row {
         flex: 0 0 50%;
     }
 }
@@ -233,7 +234,8 @@
     .products.big .media {
         max-height: 373px;
     }
-    .products.main .item {
+    .products.main .item,
+    .widgets .row {
         flex: 0 0 25%;
     }
 
