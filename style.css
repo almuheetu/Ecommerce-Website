@@ -1086,7 +1086,9 @@ form.search button:hover {
 }
 
 
-
+.mini-text span {
+   color: var(--primary-color);
+}
 /* footer */
 .newsletter {
     padding: 2.5em 0;
