@@ -1145,7 +1145,8 @@ form.search button:hover {
 }
 
 .footer-info ul li a:hover {
-    background-color: var(--border-color);
+	background-color: var(--primary-color);
+	color: var(--white-color);
 }
 
 .footer-info .logo a {
