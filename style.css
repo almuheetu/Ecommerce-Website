@@ -192,15 +192,13 @@ h4 {
     overflow: hidden;
 }
 
-.primary-button,
-.secondary-button,
-.light-button {
-    font-size: var(--font-small);
-    padding: 0.4em 2em;
-    height: auto;
-    width: fit-content;
-    border-radius: 2em;
-    transition: var(--trans-background-color);
+.primary-button, .secondary-button, .light-button {
+	font-size: var(--font-small);
+	padding: 0.8em 2em;
+	height: auto;
+	width: fit-content;
+	border-radius: 2em;
+	transition: var(--trans-background-color);
 }
 
 .primary-button {
@@ -996,4 +994,24 @@ form.search button:hover {
 }
 .products.main .item:hover .content > *:not(.footer) {
     z-index: 3;
+}
+
+
+/* Banners */
+
+.banner .item {
+    position: relative;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+
+}
+.banner .image {
+
+
+}
+
+
+.banner .item {
+
+
 }

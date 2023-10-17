@@ -14,7 +14,8 @@
     .products .price .current {
         font-size: 1.25em;
     }
-    .products.mini {
+    .products.mini,
+    .banner .row {
         flex: 0 0 50%;
     }
 }
