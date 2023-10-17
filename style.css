@@ -1016,8 +1016,9 @@ form.search button:hover {
 .products.main .item:hover .content>*:not(.footer) {
     z-index: 3;
 }
-
-
+.bor {
+	border: 1px solid var(--border-color);
+}
 /* Banners */
 
 .banner .item {
@@ -1050,4 +1051,22 @@ form.search button:hover {
 }
 .banner .primary-button {
     z-index: 3;
+}
+.banners .product-categories .item {
+    display: flex;
+    padding: 1.5em;
+}
+.banners .product-categories .image {
+    max-width: 150px;
+}
+.mini-links ul {
+    font-size: var(--font-small);
+    color: var(--light-text-color);
+    margin-top: 1em;
+}
+.banners .second-links {
+    margin-top: 2em;
+}
+.mini-links li a:hover {
+    text-decoration: underline;
 }

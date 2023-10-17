@@ -225,7 +225,8 @@
 
     /* products */
 
-    .trending .products {
+    .trending .products,
+    .product-categories .row {
         flex: 0 0 33.3333%;
     }
 
